@@ -59,15 +59,20 @@ struct NvParameter : NVSDK_NGX_Parameter
 
 	void EvaluateRenderScale();
 
-	std::vector<std::unique_ptr<NvParameter>> Params;
-
-	__declspec(noinline) constexpr NvParameter* AllocateParameters()
+	inline NvParameter* Cast(NVSDK_NGX_Parameter* Parameter)
 	{
-		Params.push_back(std::make_unique<NvParameter>());
+		return dynamic_cast<NvParameter*>(Parameter); // will compile into __RTDynamicCast 
+	}
+
+	std::vector<std::shared_ptr<NvParameter>> Params;
+
+	__declspec(noinline) NvParameter* AllocateParameters()
+	{
+		Params.push_back(std::make_shared<NvParameter>());
 		return Params.back().get();
 	}
 
-	__declspec(noinline) constexpr void DeleteParameters(NvParameter* param)
+	__declspec(noinline) void DeleteParameters(NvParameter* param)
 	{
 		auto it = std::find_if(Params.begin(), Params.end(),
 			[param](const auto& p) { return p.get() == param; });
@@ -76,7 +81,7 @@ struct NvParameter : NVSDK_NGX_Parameter
 
 	static std::shared_ptr<NvParameter> instance()
 	{
-		static std::shared_ptr<NvParameter> INSTANCE{ std::make_shared<NvParameter>() };
+		static std::shared_ptr<NvParameter> INSTANCE { std::make_shared<NvParameter>() };
 		return INSTANCE;
 	}
 };
