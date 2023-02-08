@@ -13,11 +13,13 @@ It includes a DLL wrapper/injector (winmm.dll) to disable Nvidia GeForce RTX GPU
 * Aron's Adventure
 * Assetto Corsa Competizione
 * Batora - Lost Haven
+* BLACKTAIL
 * Blind Fate: Edo no Yami
 * Bright Memory: Infinite (https://www.nexusmods.com/brightmemoryinfinite/mods/4)
 * Dakar Desert Rally
 * DOOM Eternal (https://www.nexusmods.com/doometernal/mods/1170)
 * Deep Rock Galactic
+* Deliver Us the Moon
 * Diablo II - Resurrected (https://www.nexusmods.com/diablo2resurrected/mods/269)
 * Dream Cycle
 * Evil West
@@ -31,9 +33,12 @@ It includes a DLL wrapper/injector (winmm.dll) to disable Nvidia GeForce RTX GPU
 * Gotham Knights
 * Gungrave G.O.R.E
 * Hell Pie
+* Hello Neighbor 2
 * Horizon Zero Dawn (https://www.nexusmods.com/horizonzerodawn/mods/133)
 * Hot Wheels Unleashed
+* Hydroneer
 * ICARUS
+* INDUSTRIA
 * Into the Radius VR
 * Kena: Bridge of Spirits (https://www.nexusmods.com/kenabridgeofspirits/mods/18)
 * Land of the Vikings
@@ -49,6 +54,7 @@ It includes a DLL wrapper/injector (winmm.dll) to disable Nvidia GeForce RTX GPU
 * Severed Steel
 * Soulstice (https://www.nexusmods.com/soulstice/mods/3)
 * Succubus
+* Sword and Fairy 7
 * The Ascent (https://www.nexusmods.com/theascent/mods/11)
 * The Chant
 * The Last Oricru
@@ -91,10 +97,12 @@ r.SceneColorFormat=5
 - **Assetto Corsa Competizione**: ```%LOCALAPPDATA%\AC2\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Aron's Adventure**: ```%LOCALAPPDATA%\AronsAdventure\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Batora - Lost Haven**: ```%LOCALAPPDATA%\Batora\Saved\Config\WindowsNoEditor\Engine.ini```
+- **BLACKTAIL**: ```%LOCALAPPDATA%\BLACKTAIL\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Blind Fate: Edo no Yami**: ```%LOCALAPPDATA%\Yami\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Bright Memory: Infinite**: ```%LOCALAPPDATA%\BrightMemoryInfinite\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Dakar Desert Rally**: ```%LOCALAPPDATA%\Dakar2Game\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Deep Rock Galactic**: ```GAME_INSTALL_LOCATION\Deep Rock Galactic\FSD\Saved\Config\WindowsNoEditor\Engine.ini```
+- **Deliver Us the Moon**: ```%LOCALAPPDATA%\MoonMan\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Dream Cycle**: ```%LOCALAPPDATA%\DreamCycle\Saved\Config\WindowsNoEditor\Engine.ini```
 - **F.I.S.T. - Forged In Shadow Torch**: ```%LOCALAPPDATA%\ZingangGame\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Fobia - St.Dinfna Hotel**: ```%LOCALAPPDATA%\Fobia\Saved\Config\WindowsNoEditor\Engine.ini```
@@ -103,8 +111,11 @@ r.SceneColorFormat=5
 - **Gotham Knights**: ```%LOCALAPPDATA%\Mercury\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Gungrave G.O.R.E**: ```%LOCALAPPDATA%\GunGraveGore\Saved\WindowsNoEditor\Engine.ini```
 - **Hell Pie**: ```%LOCALAPPDATA%\HellPie\Saved\Config\WindowsNoEditor\Engine.ini```
+- **Hello Neighbor 2**: ```%LOCALAPPDATA%\HelloNeighbor2\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Hot Wheels Unleashed**: ```%LOCALAPPDATA%\hotwheels\Saved\Config\WindowsNoEditor\Engine.ini```
+- **Hydroneer**: ```%LOCALAPPDATA%\Mining\Saved\Config\WindowsNoEditor\Engine.ini```
 - **ICARUS**: ```%LOCALAPPDATA%\Icarus\Saved\Config\WindowsNoEditor\Engine.ini```
+- **INDUSTRIA**: ```%LOCALAPPDATA%\Industria\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Into the Radius VR**: ```%LOCALAPPDATA%\IntoTheRadius\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Kena: Bridge of Spirits**: ```%LOCALAPPDATA%\Kena\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Land of the Vikings**: ```%LOCALAPPDATA%\VikingOyunu\Saved\Config\WindowsNoEditor\Engine.ini```
@@ -114,6 +125,7 @@ r.SceneColorFormat=5
 - **Severed Steel**: ```%LOCALAPPDATA%\ThankYouVeryCool\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Soulstice**: ```GAME_INSTALL_LOCATION\Soulstice\Saved\Config\WindowsNoEditor\Engine.ini```
 - **Succubus**: ```%LOCALAPPDATA%\Succubus\Saved\Config\WindowsNoEditor\Engine.ini```
+- **Sword and Fairy 7**: ```%LOCALAPPDATA%\Pal7\Saved\Config\WindowsNoEditor\Engine.ini```
 - **The Ascent**: ```%LOCALAPPDATA%\TheAscent\Saved\Config\WindowsNoEditor\Engine.ini```
 - **The Chant**: ```%LOCALAPPDATA%\Chant\Saved\Config\WindowsNoEditor\Engine.ini```
 - **The Last Oricru**: ```%LOCALAPPDATA%\LostHero\Saved\Config\WindowsNoEditor\Engine.ini```

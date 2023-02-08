@@ -2,7 +2,7 @@
 #include "Config.h"
 #include "Util.h"
 
-Config::Config(std::string fileName)
+Config::Config(std::wstring fileName)
 {
 	absoluteFileName = Util::DllPath().parent_path() / fileName;
 
@@ -56,15 +56,15 @@ void Config::Reload()
 
 	auto exeName = Util::ExePath().filename();
 
-	if (exeName == "Cyberpunk2077.exe")
+	if (exeName == L"Cyberpunk2077.exe")
 	{
 		Method = Method.value_or(ViewMethod::Cyberpunk2077);
 	}
-	else if (exeName == "DyingLightGame_x64_rwdi.exe")
+	else if (exeName == L"DyingLightGame_x64_rwdi.exe")
 	{
-		SharpnessRange = SharpnessRange.value_or(SharpnessRangeModifier::Extended);
+		Method = Method.value_or(ViewMethod::DL2);
 	}
-	else if (exeName == "RDR2.exe")
+	else if (exeName == L"RDR2.exe")
 	{
 		Method = Method.value_or(ViewMethod::RDR2);
 	}
@@ -156,6 +156,10 @@ std::optional<ViewMethod> Config::readViewMethod(std::string section, std::strin
 	else if (value == "rdr2")
 	{
 		return ViewMethod::RDR2;
+	}
+	else if (value == "dl2")
+	{
+		return ViewMethod::DL2;
 	}
 
 	return std::nullopt;

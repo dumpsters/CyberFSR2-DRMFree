@@ -12,12 +12,13 @@ enum class ViewMethod
 	Config,
 	Cyberpunk2077,
 	RDR2,
+	DL2,
 };
 
 class Config
 {
 public:
-	Config(std::string fileName);
+	Config(std::wstring fileName);
 
 	// Depth
 	std::optional<bool> DepthInverted;
